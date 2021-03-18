@@ -13,31 +13,43 @@
 
 <body>
     <header>
-        <h1 id="logo">dev.finance$</h1>
+        <img src="./assets/logo.svg" alt="Logo Dev Finance">
     </header>
 
     <main class="container">
         <section id="balance">
-            <h2>Balance</h2>
+            <h2 class="sr-only">Balance</h2>
 
             <div class="card">
-                <h3>Deposits</h3>
+                <h3>
+                    <span>Income</span>
+                    <img src="./assets/income.svg" alt="Image of Income">
+                </h3>
                 <p>$ 5,000.00</p>
             </div>
 
             <div class="card">
-                <h3>Withdrawal</h3>
+                <h3>
+                    <span>Withdrawal</span>
+                    <img src="./assets/expense.svg" alt="Image of Expense">
+                </h3>
                 <p>$ 2,000.00</p>
             </div>
 
             <div class="card total">
-                <h3>Total</h3>
+                <h3>
+                    <span>Total</span>
+                    <img src="./assets/total.svg" alt="Image of Total">
+                </h3>
                 <p>$ 3,000.00</p>
             </div>
         </section>
 
         <section id="transaction">
-            <h2>Transactions</h2>
+            <h2 class="sr-only">Transactions</h2>
+
+            <a href="#" class="button new">+ New Transaction</a>
+
             <table id="data-table">
                 <thead>
                     <tr>
